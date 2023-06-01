@@ -6,4 +6,4 @@ p = Polynomial({
     2: 3
 })
 
-print(p.eval(0))
+p.save_as_json("poly.json")
